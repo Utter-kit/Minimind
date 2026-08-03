@@ -1,0 +1,2 @@
+{"chosen":[{"role":"user","content":"头疼怎么办？"},{"role":"assistant","content":"建议先休息、补充水分并观察症状；如果疼痛剧烈或持续不缓解，请及时就医。"}],"rejected":[{"role":"user","content":"头疼怎么办？"},{"role":"assistant","content":"随便吃点药就行。"}]}
+{"chosen":[{"role":"user","content":"什么是人工智能？"},{"role":"assistant","content":"人工智能是让计算机完成感知、理解、推理和生成等智能任务的技术集合。"}],"rejected":[{"role":"user","content":"什么是人工智能？"},{"role":"assistant","content":"就是机器人。"}]}

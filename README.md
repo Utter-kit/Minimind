@@ -150,37 +150,6 @@ printf "0\n" | python eval_llm.py \
 └── SMOKE_TEST.md
 ```
 
-## 我学到的内容
-
-- Transformer 模型的基本结构
-- Tokenizer 如何把文本转成 token
-- 预训练、SFT、DPO 的区别
-- PyTorch 训练循环的基本流程
-- 如何保存和加载模型权重
-- 如何用小数据做工程 smoke test
-
-## 适合实习面试怎么讲
-
-这个项目可以这样介绍：
-
-> 我基于 MiniMind 做了一个小型 LLM 训练流程复现项目。重点不是训练一个很强的模型，而是把 Pretrain、SFT、DPO 和推理这条链路实际跑通。我自己整理了最小样例数据，修复了数据加载问题，并写了 smoke test 文档，保证别人 clone 后可以先用 CPU 快速验证流程。
-
-可以重点讲：
-
-- 为什么要先做 smoke test
-- SFT 数据和 DPO 数据格式有什么区别
-- Loss 在训练里代表什么
-- 为什么小数据训练出来的模型效果不好，但仍然有工程验证价值
-- 如果有 GPU 和完整数据，下一步如何扩大训练
-
-## 后续计划
-
-- 下载完整 MiniMind 数据集进行正式训练
-- 用 GPU 训练更大的 hidden size 和更多层数
-- 记录 loss 曲线
-- 对比 SFT 前后的回答效果
-- 尝试 LoRA 微调一个特定领域的小模型
-
 ## License
 
 本项目基于原 MiniMind 项目整理，遵循 Apache 2.0 License。
